@@ -10,6 +10,8 @@
 #### Results/Figures:
 - I practiced getting a lightcurve for two different flares, on using STIX data and one using GOES
 
+    ![xxx](/figures/week1/stix_20200607_2130.png)
+
 <figure>
     <img src="/figures/week 1/stix_20200607_2130.png">
 </figure>
