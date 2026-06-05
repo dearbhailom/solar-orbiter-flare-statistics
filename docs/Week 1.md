@@ -10,35 +10,56 @@
 #### Results/Figures:
 - I practiced getting a lightcurve for two different flares, on using STIX data and one using GOES
 
-![](/figures/week 1/stix_20200607_2130.png)
+<figure>
+    <img src="/figures/week 1/stix_20200607_2130.png">
+</figure>
 
-![](/figures/week 1/goes_20240514_singleflare.png)
+<figure>
+    <img src="/figures/week 1/goes_20240514_singleflare.png">
+</figure>
+
+
   
 - I loaded the STIX flare list and filtered it to only include those seen by GOES, and selected the largest flare, the smallest flare, an M class flare, and a flare which I noticed didn't have a GOES class for further examination.
 - I got both STIX and GOES lightcurves for each flare.
     - Large Flare:
-      
-        ![x](/figures/week1/stix_flarelist_largeflare.png)
-    
-        ![x](/figures/week1/stix_flarelist_largeflare_goes.png)
+        <figure>
+            <img src="/figures/week 1/stix_flarelist_largeflare.png">
+        </figure>
+        
+        <figure>
+            <img src="/figures/week 1/stix_flarelist_largeflare_goes.png">
+        </figure>
     
     - Medium Flare:
       
-        ![](/figures/week1/stix_flarelist_mflare.png)
-    
-        ![](/figures/week1/stix_flarelist_mflare_goes.png)
+        <figure>
+            <img src="/figures/week 1/stix_flarelist_mflare.png">
+        </figure>
+        
+        <figure>
+            <img src="/figures/week 1/stix_flarelist_mflare_goes.png">
+        </figure>
       
     - Small Flare:
       
-        ![](/figures/week1/stix_flarelist_smallflare.png)
-    
-        ![](/figures/week1/stix_flarelist_smallflare_goes.png)
+        <figure>
+            <img src="/figures/week 1/stix_flarelist_smallflare.png">
+        </figure>
+        
+        <figure>
+            <img src="/figures/week 1/stix_flarelist_smallflare_goes.png">
+        </figure>
  
     - No GOES Class:
       
-        ![](/figures/week1/stix_flarelist_nogoesclass.png)
-    
-        ![](/figures/week1/stix_flarelist_nogoesclass_goes.png)
+        <figure>
+            <img src="/figures/week 1/stix_flarelist_nogoesclass.png">
+        </figure>
+        
+        <figure>
+            <img src="/figures/week 1/stix_flarelist_nogoesclass_goes.png">
+        </figure>
  
 
 - Plotting the GOES data for the unclassed flare, it looks like it should be in the X7-X8 range
