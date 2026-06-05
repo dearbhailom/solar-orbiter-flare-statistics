@@ -20,8 +20,8 @@
          alt="goes flare 2024 may 14th">
 </figure>
   
-- I filtered the flare list to only include those seen by GOES, and selected the largest flare, the smallest flare, an M class flare, and a flare which I noticed didn't have a GOES class
-- I got both lightcurves for each flare.
+- I loaded the STIX flare list and filtered it to only include those seen by GOES, and selected the largest flare, the smallest flare, an M class flare, and a flare which I noticed didn't have a GOES class for further examination.
+- I got both STIX and GOES lightcurves for each flare.
     - Large Flare:
       
     <figure>
