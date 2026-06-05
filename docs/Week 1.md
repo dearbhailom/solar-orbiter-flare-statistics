@@ -20,27 +20,27 @@
 - I got both STIX and GOES lightcurves for each flare.
     - Large Flare:
  
-        ![large flare stix light curve](../docs/figuresforreport/stix_flarelist_largeflare.png)
+        ![large flare stix light curve](./figures_for_reports/stix_flarelist_largeflare.png)
  
-        ![large flare goes light curve](../docs/figuresforreport/stix_flarelist_largeflare_goes.png)
+        ![large flare goes light curve](./figures_for_reports/stix_flarelist_largeflare_goes.png)
     
     - Medium Flare:
  
-        ![m flare stix light curve](../docs/figuresforreport/stix_flarelist_mflare.png)
+        ![m flare stix light curve](./figures_for_reports/stix_flarelist_mflare.png)
  
-        ![m flare goes light curve](../docs/figuresforreport/stix_flarelist_mflare_goes.png)
+        ![m flare goes light curve](./figures_for_reports/stix_flarelist_mflare_goes.png)
       
     - Small Flare:
  
-        ![small flare stix light curve](../docs/figuresforreport/week%201/stix_flarelist_smallflare.png)
+        ![small flare stix light curve](../docs/figuresforreports/week%201/stix_flarelist_smallflare.png)
  
-        ![small flare goes light curve](../docs/figuresforreport/stix_flarelist_smallflare_goes.png)
+        ![small flare goes light curve](../docs/figuresforreports/stix_flarelist_smallflare_goes.png)
  
     - No GOES Class:
  
-        ![no goes class flare stix light curve](../docs/figuresforreport/stix_flarelist_nogoesclass.png)
+        ![no goes class flare stix light curve](../docs/figuresforreports/stix_flarelist_nogoesclass.png)
  
-        ![no goes class flare goes light curve](../docs/figuresforreport/stix_flarelist_nogoesclass_goes.png)
+        ![no goes class flare goes light curve](../docs/figuresforreports/stix_flarelist_nogoesclass_goes.png)
  
 
 - Plotting the GOES data for the unclassed flare, it looks like it should be in the X7-X8 range
