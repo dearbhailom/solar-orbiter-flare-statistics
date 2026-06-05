@@ -38,7 +38,7 @@
       
         ![](/figures/week1/stix_flarelist_nogoesclass.png)
     
-        ![](/figures/week1/stix_flarelist_mfla_goes.png)
+        ![](/figures/week1/stix_flarelist_nogoesclass_goes.png)
  
 
 - Plotting the GOES data for the unclassed flare, it looks like it should be in the X7-X8 range
