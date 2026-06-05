@@ -10,27 +10,17 @@
 #### Results/Figures:
 - I practiced getting a lightcurve for two different flares, on using STIX data and one using GOES
 
-<figure>
-    <img src="/figures/week 1/stix_20200607_2130.png"
-         alt="stix flare 2020 june 7th">
-</figure>
+![](/figures/week 1/stix_20200607_2130.png)
 
-<figure>
-    <img src="/figures/week 1/goes_20240514_singleflare.png"
-         alt="goes flare 2024 may 14th">
-</figure>
+![](/figures/week 1/goes_20240514_singleflare.png)
   
 - I loaded the STIX flare list and filtered it to only include those seen by GOES, and selected the largest flare, the smallest flare, an M class flare, and a flare which I noticed didn't have a GOES class for further examination.
 - I got both STIX and GOES lightcurves for each flare.
     - Large Flare:
       
-    <figure>
-        <img src="/figures/week 1/stix_flarelist_largeflare.png">
-    </figure>
+![](/figures/week 1/stix_flarelist_largeflare.png)
     
-    <figure>
-        <img src="/figures/week 1/stix_flarelist_largeflare_goes.png">
-    </figure>
+![](/figures/week 1/stix_flarelist_largeflare_goes.png)
     
     - Medium Flare:
       
