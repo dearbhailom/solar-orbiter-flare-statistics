@@ -9,7 +9,7 @@ Work towards a picture of what a typical STIX flare looks like, using the STIX s
 - notebooks/ analysis notebooks 
 - figures/ saved plots 
 - data/ local data (flare list), not tracked by git 
-- weekly reports/
+- docs/ weekly reports
 
 ## Data 
 
