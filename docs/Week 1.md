@@ -10,9 +10,9 @@
 #### Results/Figures:
 - I practiced getting a lightcurve for two different flares, on using STIX data and one using GOES
 
-![stix light curve](../docs/figuresforreport/stix_20200607_2130.png)
+![stix light curve](./figures_for_reports/stix_20200607_2130.png)
 
-![goes light curve](../docs/figuresforreport/goes_20240514_singleflare.png)
+![goes light curve](./figures_for_reports/goes_20240514_singleflare.png)
 
 
   
@@ -32,15 +32,15 @@
       
     - Small Flare:
  
-        ![small flare stix light curve](../docs/figuresforreports/week%201/stix_flarelist_smallflare.png)
+        ![small flare stix light curve](./figures_for_reports/stix_flarelist_smallflare.png)
  
-        ![small flare goes light curve](../docs/figuresforreports/stix_flarelist_smallflare_goes.png)
+        ![small flare goes light curve](./figures_for_reports/stix_flarelist_smallflare_goes.png)
  
     - No GOES Class:
  
-        ![no goes class flare stix light curve](../docs/figuresforreports/stix_flarelist_nogoesclass.png)
+        ![no goes class flare stix light curve](./figures_for_reports/stix_flarelist_nogoesclass.png)
  
-        ![no goes class flare goes light curve](../docs/figuresforreports/stix_flarelist_nogoesclass_goes.png)
+        ![no goes class flare goes light curve](./figures_for_reports/stix_flarelist_nogoesclass_goes.png)
  
 
 - Plotting the GOES data for the unclassed flare, it looks like it should be in the X7-X8 range
