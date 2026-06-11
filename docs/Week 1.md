@@ -47,3 +47,5 @@
 - For the three larger flares, I noticed sudden very sharp increases in the lower energy ranges shortly after the main flare event - this is due to the presence of the attenuator affecting how the lower energy ranges are detected
 - The smallest flare does not have a clear peak in the GOES data - this means it was probably too small to be clearly distinguished from background solar radiation by GOES
 - I also marked in vertical lines where the peak time was given by the STIX flare list. This shows the time offset in the two data sets -  the peak line from the STIX data appears in the range of a few minutes earlier than the GOES peak due to the distance from Solar Orbiter to Earth
+
+[Back to list](index)
