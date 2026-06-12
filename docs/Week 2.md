@@ -19,7 +19,7 @@
  
       ![plot with interesting attenuator](./figures_for_reports/plot_flare_function_wacky_attenuator.png)
  
-    - Another example with the attenuator, and plotting over a larger period (multiple flares) - it was on continuously for ~12 hours after the largest flare
+    - Another example with the attenuator, and plotting over a larger period (multiple flares) - it was on continuously for ~12 hours after the largest flare (due to SEPs creating X rays in detector).
  
       ![longer period plotted with long attenuator](./figures_for_reports/plot_flare_function_long_attenuator.png)
       
@@ -48,17 +48,17 @@
         | *Number of M class* | 685 | 682 |
         | *Number of X class* | 42 | 80 |
         
-      - There are almost double the number of X class flares on the back side of the Sun. Is this an expected result/do current models explain this?
+      - There are almost double the number of X class flares on the back side of the Sun. Is this an expected result/do current models explain this? Could this be due to a small number of high activity events on the back side?
      
     - *Butterfly diagram: Do flares drift towards the equator over the mission?*
-      - From the plot, there is a clear narrowing in the shape that indicates there is an overall drifting of flares towards the equator over the course of the 5 years. However, although the majority of flares seem to drift towards the equator, the flares also seem to be less concentrated in the vicinity, with more flares at extreme latitudes towards the end of the period than at the beginning. 
+      - From the plot, there is a clear narrowing in the shape that indicates there is an overall drifting of flares towards the equator over the course of the 5 years - due to flipping of magnetic fields, should see 'widening' of shape again as solar cycle approaches minimum. There are also repeated spreads of flares splayed out from the main concentration - what are these due to? 
       
       ![butterfly diagram (hgs latitude against time)](./figures_for_reports/flare_list_butterfly_diagram.png)
  
       - Do flares drifting towards the equator affect any other properties - e.g. do flares closer to the equator tend to be bigger/smaller? 
       
     - *Flare rate over time: Does the count per month climb with the solar cycle?*
-      - Although there are quite large variations in the monthly rate of flares over the period, there is a clear peak in the number around the maximum of this solar cycle (October 2024) and there seems to be an overall climb to this point and decrease afterwards. 
+      - Although there are quite large variations in the monthly rate of flares over the period, there is a clear peak in the number around the maximum of this solar cycle (October 2024) and there seems to be an overall climb to this point and decrease afterwards - flare activity is affected by solar cycle.
       
       ![flares per month](./figures_for_reports/flare_list_monthly_flares.png)
 
