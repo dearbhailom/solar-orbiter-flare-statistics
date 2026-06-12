@@ -25,8 +25,7 @@
       
 - ##### Flare list analysis:
     - *GOES Estimated Flux:*
- 
-      xxx
+      - The mean error on the estimated GOES flux is approximately 3.17e-06 - so it is a good approximation for the larger flarers, but less accurate for smaller ones. 
         
     - *Imaging Errors:*
         - 1,572 out of a total 31,730 flares have errors with imaging, causing them to have no location (hgs_lon) in the flare list. Large clusters of imaging errors occur in summer of 2025 and in late 2025/ early 2026.
@@ -38,27 +37,30 @@
       
       ![size distribution histogram](./figures_for_reports/flare_list_goes_flux_hist.png)
  
-      - Smaller flares are drastically more common - of the flares in the list, less than 5% are M or X by the estimated GOES class. 
+      - Smaller flares are drastically more common - of the flares in the list, less than 5% are M or X by the estimated GOES class. What conditions prompt/create a large flare? Is this size distribution similar to that of other data sets? Do large flares cluster at specific times in the mission, as the flare rate does?
 
       
     - *Backside flares: How many are not visible from Earth, and are any of them large?*
-      - 14,949 flares out of 31,730 occurred on the back side of the Sun and were therefore not visible from Earth. Examining the relative occurence of larger flares (M or X class), using the GOES estimated mean class:
+      - 14,949 flares out of 31,730 occurred on the back side of the Sun - so a little under half of all of the flares observed were not visible from Earth. Examining the relative occurence of larger flares (M or X class), using the GOES estimated mean class:
         
         || Visible from Earth | Not visible from Earth |
         |--------|:-:|:-:|
         | *Number of M class* | 685 | 682 |
         | *Number of X class* | 42 | 80 |
         
-      - There are almost double the number of X class flares on the back side of the Sun.
+      - There are almost double the number of X class flares on the back side of the Sun. Is this an expected result/do current models explain this?
      
     - *Butterfly diagram: Do flares drift towards the equator over the mission?*
-      - From the plot, there is a clear narrowing in the shape that indicates there is an overall drifting of flares towards the equator over the course of the 5 years. However, although the majority of flares seem to drift towards the centre, the flares also seem to be less concentrated in the vicinity, with more flares at extreme latitudes towards the end of the period than at the beginning. 
+      - From the plot, there is a clear narrowing in the shape that indicates there is an overall drifting of flares towards the equator over the course of the 5 years. However, although the majority of flares seem to drift towards the equator, the flares also seem to be less concentrated in the vicinity, with more flares at extreme latitudes towards the end of the period than at the beginning. 
       
       ![butterfly diagram (hgs latitude against time)](./figures_for_reports/flare_list_butterfly_diagram.png)
+ 
+      - Do flares drifting towards the equator affect any other properties - e.g. do flares closer to the equator tend to be bigger/smaller? 
       
     - *Flare rate over time: Does the count per month climb with the solar cycle?*
       - Although there are quite large variations in the monthly rate of flares over the period, there is a clear peak in the number around the maximum of this solar cycle (October 2024) and there seems to be an overall climb to this point and decrease afterwards. 
       
       ![flares per month](./figures_for_reports/flare_list_monthly_flares.png)
+
         
 [Back to list](index)
