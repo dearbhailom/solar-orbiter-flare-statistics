@@ -25,7 +25,7 @@
       
 - ##### Flare list analysis:
     - *GOES Estimated Flux:*
-      - The mean error on the estimated GOES flux is approximately 3.17e-06 - so it is a good approximation for the larger flarers, but less accurate for smaller ones. 
+      - The mean error on the estimated GOES flux is approximately 3.17e-06 W/m^2^- so it is a good approximation for the larger flares, but less accurate for smaller ones. 
         
     - *Imaging Errors:*
         - 1,572 out of a total 31,730 flares have errors with imaging, causing them to have no location (hgs_lon) in the flare list. Large clusters of imaging errors occur in summer of 2025 and in late 2025/ early 2026.
