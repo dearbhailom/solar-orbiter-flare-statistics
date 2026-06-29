@@ -21,7 +21,7 @@
   ![Example flare plot](./figures_for_reports/top_100_flares_science_data_plot0_filtered_cropped.png)
   ![Example flare plot](./figures_for_reports/top_100_flares_science_data_plot10_filtered_cropped.png)
  - Stars mark peaks found by Scipy find_peaks. The prominence level of this might need too be reduced for the filtered data, as it seems to be somewhat undercounting now (it was previously overcounting on many)
-- Some of the plots, especially of smaller flares, seem too smoothed - smoothing is currently being applied equally to all plots, but might need to be adjusted flare by flare - could use e.g. peak counts, or some better criteria for noise level?
+- Some of the plots, especially of smaller flares, seem too smoothed - should all plots be smoothed with the same filter settings?
 
 #### Aims/questions for next week:
 - Adjust smoothing of flare data
