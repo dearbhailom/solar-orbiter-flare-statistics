@@ -3,29 +3,54 @@
 #### Tasks completed:
 - Submitted abstract for STIX workshop
 - Continued testing smoothing and peak finding on flare data
-- Added start and end times to statistics dataframe
+- Added start and end times to statistics dataframe, plotted durations against peak rations
 - Measured approximate FWHM of flares in the 25-50 keV and 50-100 keV bands and compared to flare durations
 - Tested alternative method for finding flare starts and ends with difference in counts
-- Identified several interestingly shaped flares and compared to quicklook data (?)
+- Identified several interestingly shaped flares and compared to quicklook data
 
 #### Results/Figures:
+- ##### Duration vs. peak ratio:
+ - Some positive correlation?
+
+  ![duration v. peak ratio 25-50](./figures_for_reports/duration_vs_peak_ratio.png)
+
+  ![duration v. peak ratio 50-100](./figures_for_reports/duration_vs_peak_ratio_50_100.png)
+  
 - ##### FWHM:
  - Currently estimated by finding 1/2 of the peak counts and measuring from the point where the flare reaches this number of counts to the last part of the flare at this level - i.e. measuring across the entire 'shape' of the flare, even if there are multiple peaks
  - Very rough estimate, and some innacuracies visible from the fact that there isn't currently any interpolation of the flare data- so it is finding the nearest point to the half maximum on either 'end'
+   
    ![FWHM histogram lower energy](./figures_for_reports/fwhm_hist.png)
+
    ![FWHM histogram higher energy](./figures_for_reports/fwhm_50_100_hist.png)
+   
  - From looking at the distribution of the FWHMs as well as visually marking them on the flare plots, they appeared to be a very similar length, or in some cases longer, than the 10 keV/3 keV (for the 25-50 and 50-100 keV bands respectively) threshold durations. While this makes some sense because the increase/decrease from the half maximum point is very steep in most of the flares, I wanted to try and get a more accurate estimate of the duration vs the fwhm. By definition, looking at a 'threshold' of counts for the start time is going to neglect the increase or decrease just above/below the line, which should be included for the most accurate rise/decay time.
 
 - ##### Difference method for estimating flare times:
    - I experimented with using a method of identifying where the flare counts start to increase/decrease by a given amount - by trial and error, this is currently looking for where the absolute value of the difference between points is > 0.1 counts, with heavily smoothed data
-   - Currently, I have this getting reasonably accurate starts and ends for approx. 50 of the flares - of the top 100, the other half either have very low counts/weak signal in the hard x-ray, or are very impulsive and therefore the current smoothing is not accurately getting the flare shape (it is probably possible to apply the same method to these flares just with less/no smoothing, however I'm not sure about extending this to a larger dataset it in terms of automating the process). There are also some flares that have other small flares occuring very close in time to the flare of interest - I am trying to figure out what is the best way of 'focusing in on' the main flare, either by using some other estimated start/end times to constrain the time period being analysed, or having some system of checking for areas of change that contain the main peak. 
-     ![Difference method histogram](./figures_for_reports/fwhm_50_100_hist.png)
-     ![FWHM histogram higher energy](./figures_for_reports/fwhm_50_100_hist.png)
+   - Currently, I have this getting reasonably accurate starts and ends for approx. 50 of the flares - of the top 100, the other half either have very low counts/weak signal in the hard x-ray, or are very impulsive and therefore the current smoothing is not accurately getting the flare shape (it is probably possible to apply the same method to these flares just with less/no smoothing, however I'm not sure about extending this to a larger dataset it in terms of automating the process). There are also some flares that have other small flares occuring very close in time to the flare of interest - I am trying to figure out what is the best way of 'focusing in on' the main flare, either by using some other estimated start/end times to constrain the time period being analysed, or having some system of checking for areas of change that contain the main peak.
+     
+     ![Difference method histogram](./figures_for_reports/duration_hist_diff_method.png)
+     
+     ![FWHM histogram higher energy](./figures_for_reports/duration_hist_threshold_method.png)
+     
    - For the subset of flares where I currently have the durations estimated using the differences, the first histogram above shows the difference method durations, and the second the threshold methods. The difference method gives over all longer durations, and by eye more accurate, although there is still some issues for some of the flares, mainly with the end values cutting off too soon.
    - Below is an example with the FWHM marked (turquoise), and the starts and ends in the two different methods.
+     
      ![Example flare plot](./figures_for_reports/flare21.png)
+     
+   - Currently this method is still not very accurate with the 50-100 keV band - generally better with larger flares. Currently using a change of >0.02 counts, the durations are on average being overestimated (longer than durations in the lower energy band which is clearly innacurate). Could look at different smoothing or change values, or restricting the range to within the duration of the 25-50 keV flare.
+          
+     ![Difference method histogram](./figures_for_reports/duration_hist_50100_diff_method.png)
+     
+     ![FWHM histogram higher energy](./figures_for_reports/duration_hist_50100_threshold_method.png)
+     
+- ##### Some interesting flares:
 
-#### Aims/questions for next week:
+  ![Interesting flare 1](./figures_for_reports/top_100_flares_science_data_plot11.png)
 
+  ![Interesting flare 2](./figures_for_reports/top_100_flares_science_data_plot13.png)
 
+  ![Interesting flare 3](./figures_for_reports/top_100_flares_science_data_plot22.png)
+  
 [Back to list](index)
