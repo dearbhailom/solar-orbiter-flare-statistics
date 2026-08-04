@@ -23,6 +23,15 @@
 
     ![Flare duration example](./figures_for_reports/week_9/flare78.png)
 
+- ##### Remade duration plots:
+
+    ![Histogram of improved durations](./figures_for_reports/week_9/improved_durations_hist.png)
+
+    ![Correlation plot of improved durations and peak counts](./figures_for_reports/week_9/improved_durations_peak_counts_vs_duration.png)
+  - Spearman correlation coefficient = 0.2
+
+    ![Correlation plot of improved durations and peak ratios](./figures_for_reports/week_9/improved_durations__peak_ratios_vs_duratio.png)
+  - Spearman correlation coefficient = 0.2
 - ##### SEA:
   - SEA aligned to *first* peak in flare (using Scipy find_peaks with a prominence of 5% of the peak counts)
   - Start-aligned SEA redone with improved start times
@@ -32,5 +41,5 @@
    
     ![SEA for 25-50 keV energy range with three different methods of alignment](./figures_for_reports/week_9/sea_comparison.png)
 
-  
+
 [Back to list](index)
