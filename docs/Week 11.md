@@ -31,8 +31,13 @@
 - ##### Statistics and correlation plots:
   - I collected flare duration, rise and decay time, peak counts, peak ratio, mean peak separation and FWHM, number of peaks, and Pearson r correlation with the SEA into a dataframe and made some plots with this.
   - *Number of peaks*:
-
+    - using raw flare data:
+      
     ![Histogram of number of peaks per flare](./figures_for_reports/week_11/peak_hist.png)
+
+    - using normalised flares:
+      
+    ![Histogram of number of peaks per flare](./figures_for_reports/week_11/peak_hist_updated.png)
     
   - *High correlation:* The following three plots showed some of the highest levels of correlation, and similar plots were included in Alexander Warmuth's slides for the STIX workshop, showing very similar results for a different set of flares.
 
